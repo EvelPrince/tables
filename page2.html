@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        table,
+       th,
+       td {
+           border: 1px solid black;
+           
+       }
+
+       table {
+           border-collapse: collapse;
+           margin: 20px auto;
+       }
+       td:hover{
+            background-color: brown;
+            color: antiquewhite;
+        }
+        td{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Styling Tables</h1>
+        <nav>
+            <a href="index.html">Table Basics</a>
+            <a href="#">Styling Tables</a>
+            <a href="page3.html">Creating a Calender</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Using CSS</h2>
+        <div class="container">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr>
+                    <th>8:30 A.M</th>
+                    <td rowspan="9">Relax and Catch up on Homework</td>
+                    <td rowspan="4">Get Ready for Painting Class</td>
+                    <td rowspan="2">Get Ready for Color Theory</td>
+                    <td rowspan="4">Get Ready for Painting Class</td>
+                    <td rowspan="2">Get Ready for Color Theory</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9:30 A.M.</th>
+                    <td></td>
+                    <td></td>   
+                </tr>
+                <tr>
+                    <th>10:30 A.M</th>
+                    <td rowspan="2">Color Theory</td>
+                    <td rowspan="2">Color Theory</td>
+                    <td></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <th>11:30 A.M.</th>
+                    <td></td>
+                    <td></td>   
+                </tr>
+                <tr>
+                    <th>12:30 P.M.</th>
+                    <td rowspan="4">Painting Class</td>
+                    <td></td>
+                    <td rowspan="4">Painting Class</td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <th>1:30 P.M.</th>
+                    <td rowspan="3">Computer Art</td>
+                    <td rowspan="3">Computer Art</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>2:30 P.M.</th>
+                    <td></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <th>3:30 P.M.</th>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>4:30 P.M.</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>5:30 P.M.</th>
+                    <td colspan="7">Dinner Time!</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <h3>&copy; Evel Slania; 2022</h3>
+    </footer>
+    
+</body>
+</html>
